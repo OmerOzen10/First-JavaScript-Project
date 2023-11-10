@@ -1,0 +1,45 @@
+.timerButton{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-family: consolas, monospace;
+    transition: background-color 0.3s,color 0.3s;
+}
+.timerButton:hover{
+    background-color: #553;
+    color: #fff;
+}
+
+#timeDisplay{
+    margin-top: 100px;
+    font-size: 60px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+.timerButton:active {
+    transform: translateY(2px);
+}
+
+#timeContainer{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 3px solid wheat;
+    border-radius: 150px;
+    background-color: #222222;
+     margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
